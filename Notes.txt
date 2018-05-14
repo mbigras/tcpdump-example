@@ -1,0 +1,7 @@
+TCPdump Example
+
+Command reference
+
+tcpdump -X -i lo0 'port 8000'
+tcpdump -A -i lo0 'port 8000'
+curl localhost:8000/secret
